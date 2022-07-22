@@ -1,7 +1,4 @@
-
-	type Matrix [][]int32
-	oneMatrix := Matrix{{11, 2, 4}, {4, 10, 6}, {10, 8, 12}}
-	number package main
+package main
 
 import (
 	"fmt"
@@ -27,6 +24,9 @@ func diagonalDifference(arr [][]int32) int32 {
 
 }
 
-func main() {:= diagonalDifference(oneMatrix)
+func main() {
+	type Matrix [][]int32
+	oneMatrix := Matrix{{11, 2, 4}, {4, 10, 6}, {10, 8, 12}}
+	number := diagonalDifference(oneMatrix)
 	fmt.Print(number)
 }
